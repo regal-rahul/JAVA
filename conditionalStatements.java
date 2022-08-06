@@ -66,9 +66,9 @@ public class conditionalStatements {
 
         // solution 1
 
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
-        int button = sc.nextInt();
+        // int button = sc.nextInt();
 
         // solution 1
 
@@ -84,18 +84,98 @@ public class conditionalStatements {
 
         // solution 2
 
-        switch (button) {
+        // switch (button) {
+        // case 1:
+        // System.out.println("Hello");
+        // break;
+        // case 2:
+        // System.out.println("Namaste");
+        // break;
+        // case 3:
+        // System.out.println("Bonjour");
+        // break;
+        // default:
+        // System.out.println("Invalid button");
+        // }
+
+        // TODO Self Practice
+        // Make a Calculator. Take 2 numbers (a & b) from the user and an operation as
+        // follows :
+        // 1 : + (Addition) a + b
+        // 2 : - (Subtraction) a - b
+        // 3 : * (Multiplication) a * b
+        // 4 : / (Division) a / b
+        // 5 : % (Modulo or remainder) a % b
+        // Calculate the result according to the operation given and display it to the
+        // user.
+        // Ask the user to enter the number of the month & print the name of the month.
+        // For eg - For ‘1’ print ‘January’, ‘2’ print ‘February’ & so on.
+
+        // Solution 1
+
+        // Scanner sc = new Scanner(System.in);
+
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+
+        // int sum = a + b;
+        // int diff = a - b;
+        // int mul = a * b;
+        // int div = a / b;
+        // int mod = a % b;
+
+        // System.out.println(sum);
+        // System.out.println(diff);
+        // System.out.println(mul);
+        // System.out.println(div);
+        // System.out.println(mod);
+
+        // solution 2
+
+        Scanner sc = new Scanner(System.in);
+
+        int month = sc.nextInt();
+
+        switch (month) {
             case 1:
-                System.out.println("Hello");
+                System.out.println("Jan");
                 break;
             case 2:
-                System.out.println("Namaste");
+                System.out.println("Feb");
                 break;
             case 3:
-                System.out.println("Bonjour");
+                System.out.println("Mar");
                 break;
+            case 4:
+                System.out.println("Apr");
+                break;
+            case 5:
+                System.out.println("May");
+                break;
+            case 6:
+                System.out.println("Jun");
+                break;
+            case 7:
+                System.out.println("Jul");
+                break;
+            case 8:
+                System.out.println("Aug");
+                break;
+            case 9:
+                System.out.println("Sep");
+                break;
+            case 10:
+                System.out.println("Oct");
+                break;
+            case 11:
+                System.out.println("Nov");
+                break;
+            case 12:
+                System.out.println("Dec");
+                break;
+
             default:
-                System.out.println("Invalid button");
+                System.out.println("Invalid month number!!!!");
         }
     }
 }
