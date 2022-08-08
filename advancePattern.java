@@ -59,15 +59,35 @@ public class advancePattern {
 
         // TODO print a full number pyramid
 
+        // int n = 5;
+
+        // for (int i = 1; i <= n; i++) {
+        // spaces
+        // for (int j = 1; j <= n - i; j++) {
+        // System.out.print(" ");
+        // }
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print(i + " ");
+        // }
+        // System.out.println();
+        // }
+
+        // TODO palindrome pattern
+
         int n = 5;
 
         for (int i = 1; i <= n; i++) {
-            // spaces
+            // space
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
-            for (int j = 1; j <= i; j++) {
-                System.out.print(i + " ");
+            // 1st half
+            for (int j = i; j >= 1; j--) {
+                System.out.print(j);
+            }
+            // 2nd half
+            for (int j = 2; j <= i; j++) {
+                System.out.print(j);
             }
             System.out.println();
         }
