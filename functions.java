@@ -35,18 +35,40 @@ public class functions {
 
     // TODO make a function to multiply 2 numbers and return the product
 
-    public static int calculateMultiply(int a, int b) {
-        int multiply = a * b;
-        return multiply;
+    // public static int calculateMultiply(int a, int b) {
+    // int multiply = a * b;
+    // return multiply;
+    // }
+
+    // public static void main(String[] args) {
+    // Scanner sc = new Scanner(System.in);
+    // int a = sc.nextInt();
+    // int b = sc.nextInt();
+
+    // int multiply = calculateMultiply(a, b);
+
+    // System.out.println("Product of the two number is: " + multiply);
+    // }
+
+    // TODO factorial of a number
+
+    public static void calculateFactorial(int n) {
+        if (n < 0) {
+            System.out.println("Invalid Number!");
+            return;
+        }
+        int factorial = 1;
+        for (int i = n; i >= 1; i--) {
+            factorial = factorial * i;
+        }
+        System.out.println(factorial);
+        return;
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        int n = sc.nextInt();
 
-        int multiply = calculateMultiply(a, b);
-
-        System.out.println("Product of the two number is: " + multiply);
+        calculateFactorial(n);
     }
 }
