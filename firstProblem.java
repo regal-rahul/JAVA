@@ -247,8 +247,4 @@ public class firstProblem {
         }
         sc.close();
     }
-
-    // 9
-    // 10
-
 }
