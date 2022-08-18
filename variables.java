@@ -1,9 +1,9 @@
 public class variables {
     public static void main(String[] args) {
         // variables
-        String name = "Tony Stark";
-        int age = 48;
-        double price = 25.9;
+        // String name = "Tony Stark";
+        // int age = 48;
+        // double price = 25.9;
 
         int a = 18;
         int b = 9;
@@ -13,7 +13,7 @@ public class variables {
         int mul = a * b;
         int div = a / b;
 
-        // TODO AxB/A-B
+        // PROBLEM: AxB/A-B
         int algebra = (a * b) / (a - b);
 
         // System.out.println(name);

@@ -11,7 +11,7 @@ public class userInput {
         // nextFloat()
         // System.out.println(name);
 
-        // TODO Take 2 variables 'a' and 'b' and print their sum.
+        // PROBLEM: Take 2 variables 'a' and 'b' and print their sum.
 
         Scanner sc = new Scanner(System.in);
 
@@ -21,5 +21,6 @@ public class userInput {
         int sum = a + b;
 
         System.out.println(sum);
+        sc.close();
     }
 }

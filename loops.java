@@ -3,12 +3,12 @@ import java.util.*;
 public class loops {
     public static void main(String[] args) {
 
-        // TODO FOR LOOP
+        // PROBLEM: FOR LOOP
         // for (int i = 0; i < 10; i++) {
         // System.out.println("Hello World");
         // }
 
-        // TODO print numbers from 0 to 10
+        // PROBLEM: print numbers from 0 to 10
 
         // Recommended solution
         // for (int i = 0; i <= 10; i++) {
@@ -24,7 +24,7 @@ public class loops {
         // for (int i = 0; i <= 10; i++)
         // System.out.println(i);
 
-        // TODO WHILE LOOP
+        // PROBLEM: WHILE LOOP
 
         // int i = 0;
         // while (i < 11) {
@@ -38,7 +38,7 @@ public class loops {
         // i++;
         // }
 
-        // TODO DO WHILE LOOP
+        // PROBLEM: DO WHILE LOOP
 
         // int i = 0;
         // do {
@@ -46,7 +46,7 @@ public class loops {
         // i++;
         // } while (i <= 10);
 
-        // TODO while and dowhile check
+        // PROBLEM: while and dowhile check
 
         // int i = 12;
         // while (i < 11) {
@@ -58,7 +58,7 @@ public class loops {
         // System.out.println("Do While");
         // } while (i < 11);
 
-        // TODO print the sum of first n natural numbers. take input from user.
+        // PROBLEM: print the sum of first n natural numbers. take input from user.
 
         // Scanner sc = new Scanner(System.in);
         // int num = sc.nextInt();
@@ -69,7 +69,7 @@ public class loops {
         // }
         // System.out.println(sum);
 
-        // TODO print the table of a number input by the user
+        // PROBLEM: print the table of a number input by the user
 
         // Scanner sc = new Scanner(System.in);
         // int num = sc.nextInt();
@@ -78,7 +78,7 @@ public class loops {
         // System.out.println(num * i);
         // }
 
-        // TODO print all even number till n.
+        // PROBLEM: print all even number till n.
 
         // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
@@ -89,7 +89,7 @@ public class loops {
         // }
         // }
 
-        // TODO print all odd number till n.
+        // PROBLEM: print all odd number till n.
 
         // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
@@ -100,7 +100,7 @@ public class loops {
         // }
         // }
 
-        // TODO print if user input number is prime or not
+        // PROBLEM: print if user input number is prime or not
 
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -115,5 +115,6 @@ public class loops {
         } else {
             System.out.println(n + " is Not a Prime Number");
         }
+        sc.close();
     }
 }

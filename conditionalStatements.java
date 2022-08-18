@@ -1,10 +1,9 @@
-import java.util.Scanner;
-
 import java.util.*;
 
 public class conditionalStatements {
     public static void main(String[] args) {
-        // TODO take user age input and print adult if above 18 if not print not adult.
+        // PROBLEM: take user age input and print adult if above 18 if not print not
+        // adult.
         // Scanner sc = new Scanner(System.in);
 
         // int age = sc.nextInt();
@@ -15,7 +14,7 @@ public class conditionalStatements {
         // System.out.println("User is Not an Adult");
         // }
 
-        // TODO take number input from user and print if its Odd or Even
+        // PROBLEM: take number input from user and print if its Odd or Even
 
         // Scanner sc = new Scanner(System.in);
 
@@ -26,7 +25,7 @@ public class conditionalStatements {
         // System.out.println("Number is Odd");
         // }
 
-        // TODO take user input of 2 numbers as 'a' and 'b' and print
+        // PROBLEM: take user input of 2 numbers as 'a' and 'b' and print
         // 1. if a is equal to b
         // 2. if a is greater than b
         // 3. if a is lesser than b
@@ -58,7 +57,7 @@ public class conditionalStatements {
         // System.out.println("A is less than B");
         // }
 
-        // TODO take input from user for any one number among (1, 2, 3) and
+        // PROBLEM: take input from user for any one number among (1, 2, 3) and
         // do the following task
         // print hello if input is 1
         // print namaste if input is 2
@@ -98,7 +97,7 @@ public class conditionalStatements {
         // System.out.println("Invalid button");
         // }
 
-        // TODO Self Practice
+        // PROBLEM: Self Practice
         // Make a Calculator. Take 2 numbers (a & b) from the user and an operation as
         // follows :
         // 1 : + (Addition) a + b
@@ -177,5 +176,6 @@ public class conditionalStatements {
             default:
                 System.out.println("Invalid month number!!!!");
         }
+        sc.close();
     }
 }

@@ -1,7 +1,7 @@
 public class patterns {
     public static void main(String[] args) {
 
-        // TODO print a rectangle made up of *
+        // PROBLEM: print a rectangle made up of *
         // for (int i = 1; i <= 4; i++) {
         // for (int j = 1; j <= 5; j++) {
         // System.out.print("*");
@@ -9,7 +9,7 @@ public class patterns {
         // System.out.println("");
         // }
 
-        // TODO Rectangular box with boundary only
+        // PROBLEM: Rectangular box with boundary only
         // another pattern
         // int n = 4;
         // int m = 5;
@@ -25,7 +25,7 @@ public class patterns {
         // System.out.println();
         // }
 
-        // TODO half pyramid
+        // PROBLEM: half pyramid
         // int n = 4;
 
         // for (int i = 1; i <= n; i++) {
@@ -35,7 +35,7 @@ public class patterns {
         // System.out.println();
         // }
 
-        // TODO inverted half pyramid
+        // PROBLEM: inverted half pyramid
 
         // int n = 4;
 
@@ -46,7 +46,7 @@ public class patterns {
         // System.out.println();
         // }
 
-        // TODO half pyramid inverted rotated by 180deg
+        // PROBLEM: half pyramid inverted rotated by 180deg
 
         // int n = 4;
 
@@ -60,7 +60,7 @@ public class patterns {
         // System.out.println();
         // }
 
-        // TODO print number pattern in half pyramid structure
+        // PROBLEM: print number pattern in half pyramid structure
 
         // int n = 5;
 
@@ -71,7 +71,7 @@ public class patterns {
         // System.out.println();
         // }
 
-        // TODO inverted half pyramid with numbers
+        // PROBLEM: inverted half pyramid with numbers
         // 5 4 3 2 1
         // 4 3 2 1
         // 3 2 1
@@ -87,7 +87,7 @@ public class patterns {
         // System.out.println();
         // }
 
-        // TODO inverted half pyramid with numbers
+        // PROBLEM: inverted half pyramid with numbers
         // 1 2 3 4 5
         // 1 2 3 4
         // 1 2 3
@@ -103,7 +103,7 @@ public class patterns {
         // System.out.println();
         // }
 
-        // TODO Floyd's Triangle
+        // PROBLEM: Floyd's Triangle
         // int n = 5;
         // int num = 1;
 
@@ -115,7 +115,7 @@ public class patterns {
         // System.out.println();
         // }
 
-        // TODO print half pyramid with 0-1 numbers
+        // PROBLEM: print half pyramid with 0-1 numbers
         int n = 5;
 
         for (int i = 1; i <= n; i++) {

@@ -2,7 +2,7 @@ import java.util.*;
 
 public class functions {
 
-    // TODO write a function to print name
+    // PROBLEM: write a function to print name
 
     // private static void printMyName(String name) {
     // System.out.println(name);
@@ -17,7 +17,7 @@ public class functions {
     // printMyName(name); //// calling function
     // }
 
-    // TODO write a function for sum of 2 numbers.
+    // PROBLEM: write a function for sum of 2 numbers.
 
     // public static int calculateSum(int a, int b) {
     // int sum = a + b;
@@ -33,7 +33,7 @@ public class functions {
     // System.out.println("Sum of 2 numbers is: " + sum);
     // }
 
-    // TODO make a function to multiply 2 numbers and return the product
+    // PROBLEM: make a function to multiply 2 numbers and return the product
 
     // public static int calculateMultiply(int a, int b) {
     // int multiply = a * b;
@@ -50,7 +50,7 @@ public class functions {
     // System.out.println("Product of the two number is: " + multiply);
     // }
 
-    // TODO factorial of a number
+    // PROBLEM: factorial of a number
 
     public static void calculateFactorial(int n) {
         if (n < 0) {
@@ -70,5 +70,6 @@ public class functions {
         int n = sc.nextInt();
 
         calculateFactorial(n);
+        sc.close();
     }
 }

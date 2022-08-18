@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 
 /**
  * advancePattern
@@ -6,7 +6,7 @@ import java.util.*;
 public class advancePattern {
     public static void main(String[] args) {
 
-        // TODO butterfly pattern with stars *
+        // PROBLEM: butterfly pattern with stars *
 
         // int n = 5;
         // first upper-half pattern
@@ -42,7 +42,7 @@ public class advancePattern {
         // System.out.println();
         // }
 
-        // TODO print a solid rhombus with stars
+        // PROBLEM: print a solid rhombus with stars
 
         // int n = 5;
         // for (int i = 1; i <= n; i++) {
@@ -57,7 +57,7 @@ public class advancePattern {
         // System.out.println();
         // }
 
-        // TODO print a full number pyramid
+        // PROBLEM: print a full number pyramid
 
         // int n = 5;
 
@@ -72,7 +72,7 @@ public class advancePattern {
         // System.out.println();
         // }
 
-        // TODO palindrome pattern
+        // PROBLEM: palindrome pattern
 
         // int n = 5;
 
@@ -92,7 +92,7 @@ public class advancePattern {
         // System.out.println();
         // }
 
-        // TODO diamond pattern
+        // PROBLEM: diamond pattern
 
         int n = 4;
         for (int i = 1; i <= n; i++) {

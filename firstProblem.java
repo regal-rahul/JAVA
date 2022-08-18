@@ -178,8 +178,8 @@ public class firstProblem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        sc.close();
     }
-
     // 7
     // 8
     // 9
