@@ -64,7 +64,7 @@ public class loops {
         // int num = sc.nextInt();
 
         // int sum = 0;
-        // for (int i = 0; i <= num; i++) {
+        // for (int i = 1; i <= num; i++) {
         // sum = sum + i;
         // }
         // System.out.println(sum);
