@@ -115,19 +115,39 @@ public class patternProblem {
 
     // 5
     // Print a hollow Rhombus.
+    // public static void main(String[] args) {
+    // int n = 5;
+
+    // for (int i = 1; i <= n; i++) {
+    // for (int j = 1; j <= n - i; j++) {
+    // System.out.print(" ");
+    // }
+    // for (int j = 1; j <= n; j++) {
+    // if (j == 1 || i == 1 || i == n || j == n) {
+    // System.out.print("*");
+    // } else {
+    // System.out.print(" ");
+    // }
+    // }
+    // System.out.println();
+    // }
+    // }
+
+    // 6
+    // Print pascal triangle
     public static void main(String[] args) {
+
         int n = 5;
 
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n - i; j++) {
+            // spacing
+            for (int j = n; j >= i; j--) {
                 System.out.print(" ");
             }
-            for (int j = 1; j <= n; j++) {
-                if (j == 1 || i == 1 || i == n || j == n) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
+            int c = 1;
+            for (int j = 1; j <= i; j++) {
+                System.out.print(c + " ");
+                c = c * (i - j) / j;
             }
             System.out.println();
         }
