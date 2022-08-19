@@ -4,7 +4,7 @@ public class functions {
 
     // PROBLEM: write a function to print name
 
-    // private static void printMyName(String name) {
+    // public static void printMyName(String name) {
     // System.out.println(name);
     // return;
     // }
