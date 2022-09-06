@@ -38,6 +38,7 @@ public class bitManipulation {
         //
         Scanner sc = new Scanner(System.in);
         int operation = sc.nextInt(); // operation(1) = set | operation(0) = clear
+        sc.close();
         int n = 5;
         int pos = 1;
         int bitMask = 1 << pos;
