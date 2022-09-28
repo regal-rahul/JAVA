@@ -24,7 +24,7 @@ public class solveSoduko {
     }
 
     public boolean helper(char[][] board, int row, int col) {
-        if (row === board.length) {
+        if (row == board.length) {
             return true;
         }
 
@@ -59,6 +59,6 @@ public class solveSoduko {
     }
 
     public void solveSoduko(char[][] board) {
-        helper(board, 0, 0)
+        helper(board, 0, 0);
     }
 }
